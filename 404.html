@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Pop IT!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Lilita+One&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="background-color: #fc2e20">
+    <div id="banner">
+      <div id="banner-container">
+        <p id="banner-title">PAGE NOT FOUND :(</p>
+        <p id="banner-description">
+          Page you are looking for has not been created... (yet)
+        </p>
+        <div id="banner-btn">Take me back!</div>
+      </div>
+    </div>
+
+    <script async defer>
+      const btnBack = document
+        .getElementById("banner-btn")
+        .addEventListener("click", () => {
+          window.location.replace("/");
+        });
+    </script>
+  </body>
+</html>
